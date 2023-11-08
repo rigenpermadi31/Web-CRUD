@@ -1,0 +1,123 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color for the entire page */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Header styles */
+h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Main content container */
+.container {
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styles */
+form {
+    margin-top: 10px;
+    padding: 70px;
+    background-color: #f9f9f900;
+    border: 10px solid #dddddd;
+    border-radius: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input[type="file"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 5px solid #ddd;
+}
+
+/* Submit button style */
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Links styles */
+a {
+    text-decoration: none;
+    color: #0000ff;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style for images */
+.siswa-img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+/* Add more CSS rules and styles to fit your specific design requirements. */
